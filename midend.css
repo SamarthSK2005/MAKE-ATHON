@@ -1,0 +1,29 @@
+body {
+    background: url("bg2.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: "EBGaramond-VariableFont_wght.ttf";
+}
+@media (min-width: 993px) {
+    h2 {
+        left: auto; /* Reset the left value to its default */
+        right: 0; /* Move the element to the right */
+        transform: none; /* Reset the transform value */
+    }
+}
+* {
+    font-family: Montserrat;
+}
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
